@@ -1,0 +1,194 @@
+body{
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+}
+p{
+  font-size: 18px;
+  text-align: justify;
+}
+h1{
+  font-size: 22px;
+  padding: 10px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+header{
+    background-image: url("../images/xbox.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+  }
+#site_name{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 35px;
+}
+#cta{
+  font-style: normal;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(255,255,255, 0.3);
+  padding: 5px;
+  margin-bottom: 10vh;
+}
+#menue_bar{
+  position: fixed;
+  z-index: 2;
+  top: 1%;
+  width: 100vw;
+  align-items: center;
+
+}
+#menues{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.menue_button{
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 1px white solid;
+  font-weight: bolder;
+  font-size: 22px;
+  text-decoration: none;
+  color: white;
+}
+.drop-down-menue{
+  display: none;
+}
+li:hover > ul.drop-down-menue li{
+  display: block;
+  
+}
+#intro_article{
+  text-align: justify;
+  background-color: rgb(0, 53, 81);
+}
+.article{
+  padding-left: 25vw;
+  padding-right: 25vw;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+
+}
+#features{
+  color: black;
+  display: flex;
+  text-align: center;
+}
+.feature{
+
+  padding: 5vw;
+  padding-top: 5vh;
+  padding-bottom: 15vh;
+
+}
+#feature1{
+  background-color: rgb(26, 163, 255);
+  color: white;
+}
+#feature2{
+  background-color: rgb(0, 122, 204);
+  color: white;
+}
+#feature3{
+  background-color: rgb(0, 92, 153);
+  color: white;
+}
+.parallax {
+    background-image: url("../images/sky.png");
+    height: 90vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#quote{
+  position: relative;
+  top: 15vh;
+  left: 5vw;
+  width: 50vw;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+
+}
+#wiki_link{
+  font-weight: bold;
+  color: black;
+}
+.quote_text{
+  font-size: 22px;
+}
+#powered_by_sect{
+  background-color: rgb(102, 153, 153);
+}
+#powered_by_div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+
+}
+#python-logo{
+  width: 10%;
+}
+#linux-logo{
+  width: 15%
+}
+#raspberry-pi-logo{
+
+  width: 15%;
+}
+.centered{
+  justify-content: center;
+  text-align: center;
+}
+#team{
+  color: black;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+.team_member{
+  display: flex;
+  margin-top: 10vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+
+}
+#muhis_image{
+  padding-left: 5vw;
+}
+#morad_image{
+  padding-right: 5vw;
+}
+#samir_image{
+  padding-right: 5vw;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+}
+
+.animate-flicker {
+    animation: fadeIn 1s infinite alternate;
+}
